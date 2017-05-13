@@ -1,0 +1,129 @@
+/*
+Theme Name: Twenty Sixteen Michael Nordmeyer
+Theme URI: https://michaelnordmeyer.com/
+Author: Michael Nordmeyer
+Author URI: https://michaelnordmeyer.com/
+Description: Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: twentysixteen
+Template: twentysixteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url("../twentysixteen/style.css");
+
+body { background-color: #fff; }
+
+body:not(.custom-background-image).admin-bar:before { top: 0; }
+
+body:not(.custom-background-image):before,
+body:not(.custom-background-image):after { height: 0; }
+
+.site { margin: 0; }
+
+.widget,
+.comments-title,
+.page-header,
+.post-navigation,
+.post-navigation div+div { border-top: none; }
+
+.post-navigation { border-bottom: none; }
+
+.site-footer .site-title:after {
+	content: none;
+}
+
+/* Related Posts */
+ul.related_post {
+	list-style-type: none;
+}
+
+/*
+.rt-reading-time::before { content: '\f469'; }
+*/
+.rt-reading-time {
+	font-size: small;
+	font-style: italic;
+	margin-bottom: 2em;
+}
+
+/* Social icons */
+ul#socialize {
+	margin-bottom: 0;
+}
+ul#socialize li {
+	display: inline;
+}
+ul#socialize li a {
+	margin: 0 22px 24px 0;
+	font-size: 24px;
+}
+
+/* Archives */
+div.archive h4 {
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    font-size: 28px;
+    font-size: 1.75rem;
+    margin: 1.75em 0 0 0;
+}
+div.archive section {
+    margin: 1.75em 0;
+}
+div.archive h3 {
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 0;
+}
+div.archive p {
+    margin: 0;
+}
+/** 14.1 - >= 710px */
+@media screen and (min-width: 44.375em) {
+    div.archive h4 {
+		font-size: 33px;
+		font-size: 2.0625rem;
+		line-height: 1.2727272727;
+		margin-bottom: 0.8484848485em;
+	}
+}
+/** 14.3 - >= 910px */
+@media screen and (min-width: 56.875em) {
+}
+/** 14.4 - >= 985px */
+@media screen and (min-width: 61.5625em) {
+    div.archive h4 {
+		font-size: 40px;
+		font-size: 2.5rem;
+		line-height: 1.225;
+		margin-bottom: 1.05em;
+	}
+	.format-chat .entry-title {
+		font-size: 23px;
+		font-size: 1.4375em;
+		line-height: 1.304347826;
+		margin-bottom: 1.826086957em;
+	}
+}
+/** 14.5 - >= 1200px */
+@media screen and (min-width: 75em) {
+}
+/** 15.0 - Print */
+@media print {
+    div.archive h4 {
+		font-size: 24.75pt;
+		line-height: 1.2727272727;
+		margin-bottom: 1.696969697em;
+	}
+
+	.format-chat .entry-title {
+		font-size: 17.25pt;
+		line-height: 1.304347826;
+		margin-bottom: 1.826086957em;
+	}
+}
