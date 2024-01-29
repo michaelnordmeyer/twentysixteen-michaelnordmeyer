@@ -66,26 +66,26 @@ ul#socialize li a {
 
 /* Archives */
 div.archive h4 {
-    font-family: Montserrat, "Helvetica Neue", sans-serif;
-    font-size: 28px;
-    font-size: 1.75rem;
-    margin: 1.75em 0 0 0;
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+  font-size: 28px;
+  font-size: 1.75rem;
+  margin: 1.75em 0 0 0;
 }
 div.archive section {
-    margin: 1.75em 0;
+  margin: 1.75em 0;
 }
 div.archive h3 {
-    font-family: Montserrat, "Helvetica Neue", sans-serif;
-    font-size: 16px;
-    line-height: 1.75;
-    margin-bottom: 0;
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 0;
 }
 div.archive p {
-    margin: 0;
+  margin: 0;
 }
 /** 14.1 - >= 710px */
 @media screen and (min-width: 44.375em) {
-    div.archive h4 {
+  div.archive h4 {
 		font-size: 33px;
 		font-size: 2.0625rem;
 		line-height: 1.2727272727;
@@ -97,7 +97,7 @@ div.archive p {
 }
 /** 14.4 - >= 985px */
 @media screen and (min-width: 61.5625em) {
-    div.archive h4 {
+  div.archive h4 {
 		font-size: 40px;
 		font-size: 2.5rem;
 		line-height: 1.225;
@@ -115,7 +115,7 @@ div.archive p {
 }
 /** 15.0 - Print */
 @media print {
-    div.archive h4 {
+  div.archive h4 {
 		font-size: 24.75pt;
 		line-height: 1.2727272727;
 		margin-bottom: 1.696969697em;
